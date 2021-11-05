@@ -88,7 +88,7 @@ class SomeWorker(Worker):
     def show_work_experience(
         self, experience_in_years, department
     ):  # все аргументы абстрактного метода
-        # класса родителя должны быть, но могут быть и дополнительные
+        # класса родителя должны быть, но могут быть и дополнительные,
         print(f"I'm working in {department} for {experience_in_years}")
 
 
