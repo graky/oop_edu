@@ -35,7 +35,7 @@ class DarthVader(SWCharacter):  # создадим класс персонажа
     def __init__(self, lightsaber_color):
         self.lightsaber_color = lightsaber_color
 
-    def color_of_lightsaber(self):  # создадим метод, показывающий меч светового меча,
+    def color_of_lightsaber(self):  # создадим метод, показывающий цвет светового меча,
         # но с именем, отличающимся от абстрактного метода класса-родителя
         print(f"My lighstaber color is {self.lightsaber_color}!")
 
